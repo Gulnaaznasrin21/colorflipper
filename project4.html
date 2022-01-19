@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project4</title>
+</head>
+<body>
+    <input id="input" placeholder="Enter a valid color name" type="text"/>
+    <button  id="btn" onclick="myfunction()">Click me to change color</button>
+    <div id="outputbox" type="color" style="height: 150px; width: 150px; background-color: black; margin-top: 20px; margin-left: 20px;"></div> 
+  
+    
+</body>
+<script>
+   function myfunction(){
+        document.getElementById("outputbox").style.backgroundColor = document.getElementById("input").value;
+    }
+</script>
+</html>
